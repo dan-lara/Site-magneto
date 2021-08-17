@@ -82,6 +82,34 @@
   animation: vibrate-1 0.4s linear 2s infinite alternate forwards;
 }
 
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+}
+.shake-horizontal {
+  animation: shake-horizontal 5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+}
+
 /* NAVBAR */
 #navbar {
   border-bottom: 1px solid #252222;
@@ -298,6 +326,46 @@
   margin-bottom: 2em;
   text-align: center;
   font-size: 2.3em;
+}
+
+/*Contato-home*/
+#contato-home h5 {
+  text-align: center;
+  font-size: 2.3em;
+  margin-bottom: 1.3em;
+}
+
+#contato-home a {
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+#contato-home img {
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  box-shadow: 3px 3px #25222277;
+}
+
+#contato-home strong,
+#contato-home #entre-botoes {
+  color: #199609;
+  font-style: italic;
+}
+
+#contato-home #entre-botoes {
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 768px) {
+  #contato-home img {
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    box-shadow: 3px 3px #25222277;
+  }
 }
 
 /*Footer*/
