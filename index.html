@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Magneto - original e barato</title>
+   <!--Fonte-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+   <!--Estilos bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!--Js bootstrap 5.0-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!--Ícones-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   <!--CSS proprietário-->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg fixed-top bg-prim-color" id="navbar">
+      <div class="container py-3">
+         <a class="navbar-brand" href="index.html">
+            <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" />
+            <span>Magneto</span>
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list-nested"></i>
+         </button>
+         <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre nós</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="produtos.html">Produtos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contato.html">Contato</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- SLIDE -->
+   <section class="bg-prim-color" id="slider-container">
+      <div class="container">
+         <div id="slides" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#slides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#slides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#slides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+               <button type="button" data-bs-target="#slides" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="img/gears-7.jpg" class="d-block w-100 img-fluid" alt="Gear 1" />
+                  <div class="carousel-caption">
+                     <h5>Carros antigos</h5>
+                     <a href="#" class="btn btn-success">Restaurações</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/gears-8.jpg" class="d-block w-100 img-fluid" alt="Gear 2" />
+                  <div class="carousel-caption">
+                     <h5>Projetos Complexos</h5>
+                     <a href="#" class="btn btn-success">Conheça</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/gears-5.jpg" class="d-block w-100 img-fluid" alt="Gear 3" />
+                  <div class="carousel-caption">
+                     <h5>Peças originais</h5>
+                     <a href="#" class="btn btn-success">Conheça</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/gears-4.jpg" class="d-block w-100 img-fluid" alt="Gear 4" />
+                  <div class="carousel-caption">
+                     <h5>Peças originais</h5>
+                     <a href="#" class="btn btn-success">Conheça</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/gears-11.jpg" class="d-block w-100 img-fluid" alt="Gear 5" />
+                  <div class="carousel-caption">
+                     <h5>Peças originais</h5>
+                     <a href="#" class="btn btn-success">Conheça</a>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+               <i class="bi bi-chevron-compact-left"></i>
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+               <i class="bi bi-chevron-compact-right"></i>
+               <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </div>
+   </section>
+
+   <!--Valores-->
+   <section class="bg-seg-color" id="about-home">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h3 class="title">Valores</h3>
+            </div>
+
+            <div class="col-12 col-md-4">
+               <div class="card text-center">
+                  <i class="bi bi-droplet terc-color"></i>
+                  <div class="card-body">
+                     <h5 class="card-title terc-color">Sustentabilidade</h5>
+                     <p class="card-text prim-color">
+                        Nossa empresa foi projetada para <strong>reduzir</strong> ao máximo o <strong>impacto ambiental</strong>.
+                     </p>
+                     <a href="sobre.html" class="btn btn-success">Venha conosco</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+               <div class="card text-center">
+                  <i class="bi bi-gear terc-color" id="gear"></i>
+                  <div class="card-body">
+                     <h5 class="card-title terc-color">Eficiência</h5>
+                     <p class="card-text prim-color">
+                        Entregamos as peças prontas para o uso.Embaladas de forma correta e lindas.
+                     </p>
+                     <a href="sobre.html" class="btn btn-success">Seja rápido</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+               <div class="card text-center">
+                  <i class="bi bi-card-checklist terc-color"></i>
+                  <div class="card-body">
+                     <h5 class="card-title terc-color">Qualidade</h5>
+                     <p class="card-text prim-color">
+                        Nossa empresa foi projetada para <strong>reduzir</strong> ao máximo o <strong>impacto ambiental</strong>.
+                     </p>
+                     <a href="sobre.html" class="btn btn-success">Por quê?</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+               <div class="card text-center">
+                  <i class="bi bi-wrench terc-color" id="wrench"></i>
+                  <div class="card-body">
+                     <h5 class="card-title terc-color">Originalidade</h5>
+                     <p class="card-text prim-color">
+                        Vendemos apesar peças originais, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     </p>
+                     <a href="sobre.html" class="btn btn-success">Saiba como</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+               <div class="card text-center">
+                  <!--<img src="img/detran.png" alt="Logo detran">-->
+                  <img src="img/detran.svg" alt="">
+                  <div class="card-body">
+                     <h5 class="card-title terc-color">Segurança</h5>
+                     <p class="card-text prim-color">
+                        Trabalhamos com carros de leilões do detran, portanto de fonte segura e extremamente confiável
+                     </p>
+                     <a href="https://www.detran.mg.gov.br/parceiros-credenciados/lei-do-desmonte/consultar-empresas-credenciadas" target="_blank" class="btn btn-success"><img src="img/detran-2.png" alt="detran logo"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--Produtos-->
+   <section class="container-fluid bg-prim-color" id="produtos-home">
+      <div class="row">
+         <div class="col-md-12">
+            <h3 class="title">Produtos</h3>
+         </div>
+         <div class="card card-body text-center col-md-4">
+            <img src="img/gears-3.jpg" alt="gears-3">
+            <h5>Restaurações</h5>
+         </div>
+         <div class="card card-body text-center col-md-4">
+            <img src="img/gears-3.jpg" alt="gears-3">
+            <h5>Restaurações</h5>
+         </div>
+         <div class="col-md-12 d-flex justify-content-center">
+            <a href="produtos.html" class="btn btn-success">Conheça os produtos</a>
+         </div>
+
+      </div>
+   </section>
+
+   <!--Newsletter-->
+   <section class="container-fluid bg-seg-color" id="news-home">
+      <div class="row">
+         <div class="col-md-12">
+            <h3 class="title">Newsletter</h3>
+         </div>
+         <div class="container">
+            <div class="col-12 col-md-12  justify-content-center">
+               <h5 class="text-center">Assine nossa Newsletter<br> para receber todas as novidades!!</h5>
+            </div>
+         </div>
+         <div class="col-md-12 d-flex justify-content-center">
+            <a href="produtos.html" class="btn btn-success vibrate-1" data-bs-toggle="modal" data-bs-target="#newsModal">Assine nossa Newsletter</a>
+         </div>
+         <!-- Modal -->
+         <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content ">
+                  <div class="modal-header">
+                     <p class="modal-title text-center" id="newsModalLabel">Assine nossa Newsletter</p>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <form action="https://formspree.io/f/mwkawoyp" method="POST">
+                     <div class="modal-body">
+                        <input name="Email" type="email" class="form-control form-input" placeholder="Digite o seu e-mail" required />
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="cancel-modal">cancelar</button>
+                        <button type="submit" class="btn btn-success vibrate-1">Assinar</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!--FOOTER-->
+   <footer class="container-fluid bg-terc-color" id="footer">
+      <div class="container">
+         <div class="row">
+            <!-- FOOTER TOP -->
+            <div class="col-12" id="footer-top">
+               <div class="row justify-content-between">
+                  <div class="col-4">
+                     <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" />
+                        <span>Magneto</span>
+                     </a>
+                  </div>
+                  <div class="col-4" id="social-icons">
+                     <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                     <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                     <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                     <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+                  </div>
+               </div>
+            </div>
+            <!--detalhes-->
+            <div class="col-12" id="footer-details">
+               <div class="row">
+                  <div class="col-12 col-md-3" id="news-container">
+                     <h4>Contato</h4>
+                     <p class="seg-color">- (35)99970-7070</p>
+                     <p class="seg-color">- contato@Magneto.com</p>
+                  </div>
+                  <div class="col-12 col-md-5" id="contact-container">
+                     <h4>Fique por dentro das novidades</h4>
+                     <p class="seg-color">Inscreva-se para receber nossas dicas:</p>
+                     <div class="mb-3">
+                        <form action="https://formspree.io/f/mwkawoyp" method="POST">
+                           <label for="email">Your Email</label>
+                           <input name="Email" type="email" class="form-control form-input" placeholder="Digite o seu e-mail" required />
+                           <button type="submit" class="btn btn-sucess">Inscrever</button>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-4" id="links-container">
+                     <div class="row">
+                        <h4>Talvez queira ver:</h4>
+                        <div class="col-6">
+                           <ul class="list-unstyled">
+                              <li><a href="sobre.html" class="seg-color">Valores</a></li>
+                              <li><a href="produtos.html" class="seg-color">Entrega</a></li>
+                              <li><a href="#" class="seg-color">Vendas</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-6">
+                           <ul class="list-unstyled">
+                              <li><a href="#" class="seg-color">Contratar</a></li>
+                              <li>
+                                 <a href="#" class="seg-color">Trabalhe conosco</a>
+                              </li>
+                              <li><a href="contato.html" class="seg-color">Contato</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--bottom -->
+            <div class="col-12" id="footer-bottom">
+               <div class="row justify-content-between">
+                  <div class="col-12 col-md-3">
+                     <p class="seg-color">Magneto &copy; 2021</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+</body>
+
+</html>
