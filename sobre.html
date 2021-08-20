@@ -23,35 +23,148 @@
 </head>
 
 <body>
-   <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-lg fixed-top bg-prim-color" id="navbar">
-      <div class="container py-3">
-         <a class="navbar-brand" href="index.html">
-            <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" />
-            <span>Magneto</span>
-         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list-nested"></i>
-         </button>
-         <div class="collapse navbar-collapse" id="navbar-items">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="sobre.html">Sobre nós</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="produtos.html">Produtos</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contato.html">Contato</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </nav>
 
+   <!-- Barra de navegação -->
+   <header>
+      <div class="container" id="nav-container">
+         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a href="index.html" class="navbar-brand">
+               <img id="logo" src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" 
+                  alt="Magneto" class="d-inline-block align-top" />
+               <span>Magneto</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" 
+               aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-links">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+
+      <!-- Valores -->
+      <section class="bg-prim-color" id="valores-about">
+         <div class="container">
+            <div>
+               <h3 class="title">Valores</h3>
+            </div>
+            <div class="row">
+               <div class="col-md-6 valores-frases"> 
+                  <div class="row">
+                     <h4 class="valores-title">Sustentabilidade e qualidade</h4>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-2 valores-coluna">
+                        <p>Preocupação com o meio ambiente é o nosso forte.</p>
+                     </div>
+                     <div class="col-md-2 valores-coluna valores-divisao">
+                        <p>A qualidade do trabalho aliada ao valor da sustentabilidade nos impulsiona a fazer semper mais.</p>
+                     </div>
+                     <div class="col-md-2 valores-coluna">
+                        <p>Peças de qualidade que o seu veiculo merece.</p>
+                     </div>
+                  </div>
+                  <ul id="valores-list">
+                     <li><i class="bi bi-droplet terc-color"></i> Redução do impacto ambiental</li>
+                     <li><i class="bi bi-gear terc-color"></i> Peças prontas para o uso</li>
+                     <li><i class="bi bi-card-checklist terc-color"></i> Sempre entregando a maior qualidade</li>
+                     <li><i class="bi bi-wrench terc-color"></i> Vendemos apenas peças originais</li>
+                  </ul>
+               </div>
+
+               <!-- <div class="col-md-1"></div> -->
+
+               <div class="col-md-6 teste">
+                  <!-- Slider -->
+                  <div id="valoresSlider" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                     <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                     </div>
+                     <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img src="img/gears-1.jpg" class="d-block w-100" alt="">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="img/gears-3.jpg" class="d-block w-100" alt="">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="img/gears-5.jpg" class="d-block w-100" alt="">
+                     </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#valoresSlider" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#valoresSlider" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="bg-sec-color" id="historia-about">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h3 class="title">História</h3>
+               </div>
+               <div class="col-md-3 historia-imagem-1">
+                  <div class="card">
+                     <img src="img/oficina-1.jpg" alt="Oficina 1">
+                     <div class="card-body">
+                        <p class="card-text">E foi assim que tudo começou. Numa garangem pequena em 1958.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-1">
+                  <img src="img/linha-1.png" class="historia-linha-1" alt="Linha 1">
+               </div>
+               <div class="col-md-4 historia-imagem-2">
+                  <div class="card">
+                     <img src="img/oficina-2.jpg" alt="Oficina 2">
+                     <div class="card-body">
+                        <p class="card-text">Em 1965, um incendio destruiu parte da estrutura da oficina.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-1">
+                  <img src="img/linha-1.png" class="historia-linha-2" alt="Linha 2">
+               </div>
+               <div class="col-md-3 historia-imagem-3">
+                  <div class="card">
+                     <img src="img/oficina-3.jpg" alt="Oficina 3">
+                     <div class="card-body">
+                        <p class="card-text">Nos reerguemos e, em 2012, iniciamos nosso trabalho na internet.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
 
    <!--FOOTER-->
    <footer class="container-fluid bg-terc-color" id="footer">
