@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.quar-color {
+  color: #ec1f24;
+}
+
 
 /* NAVBAR */
 header, .navbar {
@@ -148,6 +152,47 @@ header, .navbar {
 }
 
 
+/* MISSAO */
+#missao-about {
+  height: 440px;
+  display: flex;
+  justify-content: center;
+}
+
+.face {
+  width: 500px;
+  height: 220px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  position: absolute;
+}
+
+#card-flip {
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all .5s;
+}
+
+#front {
+  background-color: #199609;
+  transform: rotateY(180deg);
+}
+
+#back {
+  background-color: #ec1f24;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+
+
+/* FOOTER */
 #footer {
   margin: 0;
 }
