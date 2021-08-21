@@ -68,11 +68,18 @@
   font-style: italic;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  font-weight: 700;
 }
 #form-produtos a {
   margin-top: 2em;
   margin-bottom: 2em;
   text-align: center;
+}
+
+#form-compra input {
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 700;
 }
 
 #title-rastreio {
