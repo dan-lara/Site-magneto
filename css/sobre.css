@@ -92,6 +92,7 @@ header, .navbar {
 
 #valores-list {
   list-style: none;
+  padding-top: 20px;
   padding-left: 0;
 }
 
@@ -154,7 +155,7 @@ header, .navbar {
 
 /* MISSAO */
 #missao-about {
-  height: 440px;
+  height: 420px;
   display: flex;
   justify-content: center;
 }
@@ -162,7 +163,7 @@ header, .navbar {
 .face {
   width: 500px;
   height: 220px;
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,6 +191,21 @@ header, .navbar {
   transform: rotateY(180deg);
 }
 
+#text-animation p {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 70px 20px 0 20px;
+}
+
+#frase-1 {
+  color: #199609;
+}
+
+#frase-2 {
+  color: #ec1f24;
+}
 
 
 /* FOOTER */
