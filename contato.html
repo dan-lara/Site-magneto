@@ -23,35 +23,104 @@
 </head>
 
 <body>
-   <!-- NAVBAR -->
-   <nav class="navbar navbar-expand-lg fixed-top bg-prim-color" id="navbar">
-      <div class="container py-3">
-         <a class="navbar-brand" href="index.html">
-            <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" />
-            <span>Magneto</span>
-         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list-nested"></i>
-         </button>
-         <div class="collapse navbar-collapse" id="navbar-items">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="sobre.html">Sobre nós</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="produtos.html">Produtos</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </nav>
 
+   <!-- Barra de navegação -->
+   <header>
+      <div class="container" id="nav-container">
+         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a href="index.html" class="navbar-brand">
+               <img id="logo" src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" 
+                  alt="Magneto" class="d-inline-block align-top" />
+               <span>Magneto</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" 
+               aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-links">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="contato.html">Contato</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      
+      <!-- FALE CONOSCO -->
+      <section class="bg-prim-color" id="contact-area">
+         <div class="container">
+            <div class="col-md-12">
+               <h3 class="title">Fale Conosco</h3>
+            </div>
+            <!-- CONTATO -->
+            <div class="row">
+               <!-- FORM -->
+               <div class="col-md-6" id="form-area">
+                  <form action="https://formspree.io/f/xgerprkw" method="POST">
+                     <label for="name">Nome</label>
+                     <input type="text" class="form-control" placeholder="Digite seu nome completo" name="name">
+                     <label for="email">E-mail</label>
+                     <input type="email" class="form-control" placeholder="Digite se E-mail" name="email">
+                     <label for="message">Mensagem</label>
+                     <textarea class="form-control" rows="3" placeholder="Deixe uma mensagem..." name="message"></textarea>
+                     <input type="submit" class="btn btn-success">
+                   </form>
+               </div>
+
+               <!-- CONTATOS -->
+               <div class="col-md-6" id="informacao-area">
+                  <div class="contact-box">
+                     <i class="bi bi-telephone-fill"></i>
+                     <p><span class="contact-title">Ligue para:</span> (48) 99999-9999</p>
+                  </div>
+                  <div class="contact-box">
+                     <i class="bi bi-envelope-fill"></i>
+                     <p><span class="contact-title">Envie um email:</span> contato@magneto.com.br</p>
+                  </div>
+                  <div class="contact-box">
+                     <i class="bi bi-geo-alt-fill"></i>
+                     <p>Rua Neon Genesis - 1301</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- MAPA -->
+      <section class="bg-prim-color" id="map-area">
+         <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mb-4">
+               <div class="card card-cascade narrower">
+                  <div class="view view-cascade gradient-card-header peach-gradient">
+                     <h4 class="mb-0">Nossa Localização</h4>
+                  </div>
+                  <div class="card-body card-body-cascade text-center">
+                     <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
+                        <iframe src="https://maps.google.com/maps?q=Itajuba&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
 
    <!--FOOTER-->
    <footer class="container-fluid bg-terc-color" id="footer">

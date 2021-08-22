@@ -1,4 +1,145 @@
+
+/* NAVBAR */
+header, .navbar {
+  background-color: #252222;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-brand span {
+  margin-top: 0.6em;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-left: 0.1em;
+}
+
+.navbar-brand img, .navbar-brand span {
+  padding: 0;
+  color: #ec1f24;
+}
+
+.navbar-brand img:hover, .navbar-brand span:hover {
+  color: #199609;
+}
+
+#navbar-links .nav-link {
+  color: #ec1f24;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#navbar-links .nav-link:hover {
+  color: #199609;
+}
+
+#navbar-links .active {
+  color: #199609;
+  border-bottom: 2px solid #199609;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+
+/* FALE CONOSCO */
+#contact-area {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  /* text-align: center; */
+}
+
+#contact-area .title {
+  padding-top: 80px;
+}
+
+/* FORM AREA */
+#form-area {
+  text-align: left;
+  font-weight: bold;
+  /* margin-left: 220px; */
+}
+
+#form-area input[type="text"], #form-area input[type="email"], #form-area textarea {
+  margin-bottom: 15px;
+}
+
+#form-area .btn {
+  width: 100px;
+  height: 50px;
+  color: #FFF;
+}
+
+/* INFORMACAO AREA */
+#informacao-area {
+  text-align: right;
+}
+
+.contact-box {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-box i {
+  font-size: 26px;
+  color: #199609;
+  border: solid 1px #000;
+  border-radius: 20%;
+  padding: 3px 5px 2px 5px;
+}
+
+.contact-box p {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.first-icon {
+  margin-top: 15px;
+}
+
+
+/* MAP AREA */
+#map-area {
+  padding-bottom: 20px;
+}
+
+#map-area h4 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.map-container-5 {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+  
+.map-container-5 iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+/* FOOTER */
 #footer {
-  margin-top: 8em;
-  margin-bottom: 1em;
+  margin: 0;
 }
