@@ -119,13 +119,26 @@ header,
   margin-bottom: 20px;
 }
 
-.teste {
+.carousel-left {
   padding-left: 15vh;
+}
+
+.carousel-indicators {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.carousel-indicators button {
+  padding-top: 20px;
+  margin-top: 20px;
 }
 
 /* HISTORIA */
 #historia-about {
   padding-bottom: 40px;
+}
+#historia-about p {
+  font-size: 1.1em;
 }
 
 .historia-imagem-1 {
@@ -191,11 +204,11 @@ header,
 }
 
 #text-animation p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  padding: 70px 20px 0 20px;
+  padding: 60px 20px 0 20px;
 }
 
 #frase-1 {
@@ -204,6 +217,28 @@ header,
 
 #frase-2 {
   color: #ec1f24;
+}
+
+/* SOBRE NOS */
+#sobreNos-about {
+  padding-bottom: 40px;
+}
+
+#sobreNos-about p {
+  text-align: center;
+  font-size: 1.4em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#detran-about {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#detran-about img {
+  height: 117px;
+  width: 320px;
 }
 
 /* FOOTER */

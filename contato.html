@@ -68,14 +68,20 @@
             <!-- CONTATO -->
             <div class="row">
                <!-- FORM -->
-               <div class="col-md-6" id="form-area">
-                  <form action="https://formspree.io/f/xgerprkw" method="POST">
+               <div class="col-md-6 form-input form-group" id="form-area">
+                  <form action="https://formspree.io/f/xgerprkw" method="POST" enctype="multipart/form-data">
                      <label for="name">Nome</label>
                      <input type="text" class="form-control" placeholder="Digite seu nome completo" name="name">
                      <label for="email">E-mail</label>
                      <input type="email" class="form-control" placeholder="Digite se E-mail" name="email">
+                     <label for="telefone">Telefone</label>
+                     <input type="text" class="form-control" placeholder="Número de telefone" name="telefone">
                      <label for="message">Mensagem</label>
                      <textarea class="form-control" rows="3" placeholder="Deixe uma mensagem..." name="message"></textarea>
+                     <div class="mb-3">
+                        <label for="formFile" class="form-label file-label">Caso não tenha achado o produto desejado, nos mande uma foto</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
                      <input type="submit" class="btn btn-success">
                    </form>
                </div>
@@ -84,7 +90,7 @@
                <div class="col-md-6" id="informacao-area">
                   <div class="contact-box">
                      <i class="bi bi-telephone-fill"></i>
-                     <p><span class="contact-title">Ligue para:</span> (48) 99999-9999</p>
+                     <p><span class="contact-title">Ligue para:</span> (35)99970-7070</p>
                   </div>
                   <div class="contact-box">
                      <i class="bi bi-envelope-fill"></i>
@@ -93,6 +99,12 @@
                   <div class="contact-box">
                      <i class="bi bi-geo-alt-fill"></i>
                      <p>Rua Neon Genesis - 1301</p>
+                  </div>
+                  <div class="contact-box" id="social-icons">
+                     <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                     <a href="https://pt-br.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                     <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                     <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
                   </div>
                </div>
             </div>

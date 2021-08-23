@@ -85,9 +85,18 @@ header, .navbar {
   color: #FFF;
 }
 
+.file-label {
+  margin-bottom: 0;
+}
+
+.form-input {
+  padding-bottom: 10px;
+}
+
 /* INFORMACAO AREA */
 #informacao-area {
   text-align: right;
+  padding-top: 3.4em;
 }
 
 .contact-box {
@@ -98,7 +107,7 @@ header, .navbar {
 .contact-box i {
   font-size: 26px;
   color: #199609;
-  border: solid 1px #000;
+  border: solid 1px #199609;
   border-radius: 20%;
   padding: 3px 5px 2px 5px;
 }
@@ -112,6 +121,11 @@ header, .navbar {
   margin-top: 15px;
 }
 
+#social-icons i{
+  margin-right: 0;
+  margin-left: 1em;
+  font-size: 26px;
+}
 
 /* MAP AREA */
 #map-area {
