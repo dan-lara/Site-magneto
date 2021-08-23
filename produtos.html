@@ -31,18 +31,25 @@
             <span>Magneto</span>
          </a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list-nested"></i>
+            <i class="bi bi-list-nested navbar-toggler-icon"></i>
          </button>
          <div class="collapse navbar-collapse" id="navbar-items">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
+
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="sobre.html">Sobre nós</a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" aria-current="page" href="index.html" id="nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                  <ul class="dropdown-menu bg-prim-color" aria-labelledby="nav">
+                     <li><a class="dropdown-item smooth-scroll" href="#progress-produtos">Estatísticas</a></li>
+                     <li><a class="dropdown-item smooth-scroll" href="#processo-produtos">Processo</a></li>
+                     <li><a class="dropdown-item smooth-scroll" href="#form-produtos">Compre!</a></li>
+                  </ul>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="contato.html">Contato</a>
@@ -52,6 +59,244 @@
       </div>
    </nav>
 
+   <main>
+      <!--Progress-bars-->
+      <section class="bg-seg-color bg-animate" id="progress-produtos">
+         <div class="container">
+            <div class="row ">
+               <div class="col-12 col-md-12">
+                  <h3 class="title">Estatísticas</h3>
+               </div>
+
+               <div class="col-12 col-md-6 mb-3 text-center">
+                  <div class="card">
+                     <div class="card-body" id="bars">
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Toneladas de peças recicladas</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                 <span class="progress-value">500 toneladas</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Clientes atingidos</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                 <span class="progress-value">30 000 pessoas</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Motores salvos</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                 <span class="progress-value">489 motores</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-12 col-md-6 mb-3 text-center">
+                  <div class="card">
+                     <div class="card-body" id="bars">
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Pedidos enviados</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                 <span class="progress-value">255 000 pedidos</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Parceiros</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                 <span class="progress-value">100 parceiros</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="progress-container progress-success">
+                           <span class="progress-badge">Cuidado com o Meio ambiente</span>
+                           <div class="progress mb-3">
+                              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                 <span class="progress-value">100%</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class=" col-12 col-md-12 d-flex justify-content-center">
+                  <a href="sobre.html" class="shake-horizontal btn btn-success">Conheça um pouco mais</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--Processo -->
+      <section class="bg-prim-color" id="processo-produtos">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-12">
+                  <h3 class="title">Processo</h3>
+               </div>
+
+               <!--Videos ilustrativos-->
+               <div class="col-12 col-md-7 embed-responsive embed-responsive-16by9" id="video-produtos">
+                  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Ln78wg7A-yQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cRC4iktG-kE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+
+               <!--Processamento do produtos-->
+               <div class="col-12 col-md-5">
+                  <h5 class="text-center">Seu pedido é tratado com carinho</h5>
+                  <h5 class="text-center">Ele percorre um grande caminho, em <br> <strong class="terc-color"> Apenas uma semana:</strong> <br><br></h5>
+                  <!--Lista-->
+                  <ul class="list-group justify-content-between" id="lista-processo">
+                     <li class="list-group-item mb-3 align-items-center bg-seg-color">
+                        <i class="bi bi-cart-plus-fill"></i>Recebemos seu pedido
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-box-arrow-in-down-right"></i> Enviamos para o setor de processamento
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-list-check"></i>Testamos suas peças
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-shield-fill-check"></i>Limpamos e embalamos seus produtos
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-box-seam"></i>Enviamos para a transportadora
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-broadcast-pin"></i>Você recebe seu código de rastreio
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-clock-history"></i>Logo chega na sua casa
+                     </li>
+                     <li class="list-group-item mb-3 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-award"></i>Chegou!!
+                     </li>
+                     <li class="list-group-item mb-4 d-flex align-items-center bg-seg-color">
+                        <i class="bi bi-emoji-sunglasses-fill"></i>É só aproveitar
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--Forms-produtos-->
+      <section class="bg-seg-color" id="form-produtos">
+         <div class="container">
+            <div class="row">
+               <!--Compra-->
+               <div>
+                  <div class="col-12 col-md-12">
+                     <h3 class="title">Compre o produto certo <i class="bi bi-check2-all"></i></h3>
+                  </div>
+                  <form action="" class="col-12 col-md-12" id="form-compra">
+                     <label for="marca" class="form-label">Marca</label>
+                     <input class="form-control form-input" list="lista-marca" id="marca-carro" placeholder="Digite a marca...">
+                     <datalist id="lista-marca">
+                        <option value="Ford">
+                        <option value="Fiat">
+                        <option value="Chevrolet">
+                        <option value="Wolksvagen">
+                        <option value="Honda">
+                        <option value="Toyota">
+                     </datalist>
+                     <label for="modelo" class="form-label">Modelo</label>
+                     <input class="form-control form-input" list="lista-modelo" id="modelo-carro" placeholder="Digite o modelo...">
+                     <datalist id="lista-modelo">
+                        <!--Wolks-->
+                        <option value="Fusca">
+                        <option value="Kombi">
+                        <option value="Polo">
+                        <option value="Voyage">
+                        <option value="Gol">
+                           <!--Ford-->
+                        <option value="Ka">
+                        <option value="Fiesta">
+                        <option value="Ecosport">
+                        <option value="Ranger">
+                        <option value="Mustang">
+                           <!--Fiat-->
+                        <option value="Argo">
+                        <option value="Siena">
+                        <option value="Cronos">
+                        <option value="Toro">
+                        <option value="Fiat 147">
+                        <option value="Palio">
+                        <option value="Uno">
+                           <!--Chevrolet-->
+                        <option value="Celta">
+                        <option value="Onix">
+                        <option value="Opala">
+                        <option value="Kadett">
+                           <!--Toyota-->
+                        <option value="Corrola">
+                           <!--Honda-->
+                        <option value="fit">
+                        <option value="Civic">
+                        <option value="City">
+                        <option value="HB20">
+                     </datalist>
+                     <label for="ano" class="form-label">Ano</label>
+                     <input class="form-control form-input" type="number" list="none" placeholder="Digite o Ano..." id="ano-carro">
+                     <div class=" col-12 col-md-12 d-flex justify-content-center">
+                        <a href="" class="btn btn-success vibrate-1" target="_blank" id="compre" onclick="busca()"> Compre</a>
+                     </div>
+                  </form>
+                  <!--Script Mercado Livre-->
+                  <script type="text/javascript">
+                     function busca() {
+                        const marca = document.querySelector("#marca-carro");
+                        const marcavalue = marca.value;
+                        console.log(marcavalue);
+
+                        const model = document.querySelector("#modelo-carro");
+                        const modelvalue = model.value;
+                        console.log(modelvalue);
+
+                        const ano = document.querySelector("#ano-carro");
+                        const anovalue = ano.value;
+                        console.log(anovalue);
+                        document.getElementById("compre").href = "https://lista.mercadolivre.com.br/veiculos-em-minas-gerais/".concat(marcavalue, "-", modelvalue, "-", anovalue);
+                     }
+                  </script>
+               </div>
+               <!--Rastreio-->
+               <h3 id="title-rastreio">Rastreie seu pedido</h3>
+               <form class="row g-3 bounce-top" id="form-rastreio">
+                  <div class="col-auto">
+                     <label for="codigo-rastreio" class="visually-hidden">Número do pedido</label>
+                     <input type="text" class="form-control form-input" id="codigo-rastreio" placeholder="Número do pedido" required>
+                  </div>
+                  <div class="col-auto">
+                     <button class="btn btn-success mb-3">
+                        <a target="_blank" id="rastreie" onclick="rastreia()">Rastreie</a>
+                     </button>
+                  </div>
+               </form>
+               <!--Script Rastreio-->
+               <script type="text/javascript">
+                  function rastreia() {
+                     const codigo = document.querySelector("#codigo-rastreio")
+                     const codigovalue = codigo.value;
+                     const urlFinal = document.getElementById("rastreie").href = "https://linketrack.com/".concat(codigovalue);
+                     console.log(codigovalue);
+                     console.log(urlFinal);
+                  }
+               </script>
+            </div>
+         </div>
+      </section>
+   </main>
 
    <!--FOOTER-->
    <footer class="container-fluid bg-terc-color" id="footer">
@@ -89,7 +334,7 @@
                         <form action="https://formspree.io/f/mwkawoyp" method="POST">
                            <label for="email">Your Email</label>
                            <input name="Email" type="email" class="form-control form-input" placeholder="Digite o seu e-mail" required />
-                           <button type="submit" class="btn btn-sucess">Inscrever</button>
+                           <button type="submit" class="btn btn-success">Inscrever</button>
                         </form>
                      </div>
                   </div>

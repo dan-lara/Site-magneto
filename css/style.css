@@ -106,14 +106,83 @@
   }
 }
 .shake-horizontal {
-  animation: shake-horizontal 5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+  animation: shake-horizontal 7s cubic-bezier(0.455, 0.03, 0.515, 0.955)
     infinite both;
+}
+
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.bounce-top {
+  animation: bounce-top 2s infinite both;
+}
+
+@keyframes scale-out-center {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+}
+.scale-out-center {
+  animation: scale-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes shadow-drop-2-br {
+  0% {
+    transform: translateZ(0) translateX(0) translateY(0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: translateZ(50px) translateX(-12px) translateY(-12px);
+    box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+.shadow-drop-2-br {
+  animation: shadow-drop-2-br 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 /* NAVBAR */
 #navbar {
   border-bottom: 1px solid #252222;
-  height: 8em;
 }
 
 #navbar a {
@@ -161,7 +230,6 @@
 /* SLIDE */
 #slides {
   margin-top: 8em;
-  margin-bottom: 1em;
 }
 
 #slides .carousel-caption {
@@ -233,7 +301,8 @@
 #about-home .card {
   margin-bottom: 3em;
   border-radius: 0.5em;
-  box-shadow: 1px 2px #25222277;
+  /*box-shadow: 1px 2px #25222277;*/
+  box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
 
 #about-home .card:hover > i {
@@ -289,7 +358,7 @@
 #produtos-home .card {
   margin-bottom: 3em;
   border-radius: 0.5em;
-  box-shadow: 1px 2px #25222277;
+  box-shadow: 4px 5px #25222277;
   margin: 1em;
 }
 
