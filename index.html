@@ -24,20 +24,20 @@
 <body>
    <!-- NAVBAR -->
    <header>
-      <nav class="navbar navbar-expand-lg fixed-top bg-prim-color" id="navbar">
-         <div class="container py-3">
+      <nav class="navbar navbar-expand-lg fixed-top bg-terc-color navbar-dark" id="navbar">
+         <div class="container-fluid py-1">
             <a class="navbar-brand" href="index.html">
-               <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" />
+               <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" class="d-inline-block align-top" />
                <span>Magneto</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-               <i class="bi bi-list-nested"></i>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar-items">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbar-links">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle active" aria-current="page" href="index.html" id="nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-                     <ul class="dropdown-menu bg-prim-color" aria-labelledby="nav">
+                     <ul class="dropdown-menu bg-terc-color" aria-labelledby="nav">
                         <li><a class="dropdown-item" href="#slider-container">Slides</a></li>
                         <li><a class="dropdown-item" href="#about-home">Valores</a></li>
                         <li><a class="dropdown-item" href="#produtos-home">Produtos</a></li>
@@ -74,38 +74,38 @@
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img src="img/carro-antigo.jpg" class="d-block w-100 img-fluid" alt="Gear 1" />
+                     <img src="img/carro-antigo.jpg" class="d-block w-100 img-fluid" alt="Carro antigo" />
                      <div class="carousel-caption">
                         <h5>Carros antigos</h5>
-                        <a href="#" class="btn btn-success">Restaurações</a>
+                        <a href="#produtos-home" class="btn btn-success">Veja</a>
                      </div>
                   </div>
                   <div class="carousel-item">
                      <img src="img/gears-9.jpg" class="d-block w-100 img-fluid" alt="Gear 2" />
                      <div class="carousel-caption">
                         <h5>Projetos Complexos</h5>
-                        <a href="#" class="btn btn-success">Conheça</a>
+                        <a href="sobre.html" class="btn btn-success">Conheça</a>
                      </div>
                   </div>
                   <div class="carousel-item">
                      <img src="img/gears-5.jpg" class="d-block w-100 img-fluid" alt="Gear 3" />
                      <div class="carousel-caption">
                         <h5>Peças originais</h5>
-                        <a href="#" class="btn btn-success">Conheça</a>
+                        <a href="produtos.html" class="btn btn-success">Compre</a>
                      </div>
                   </div>
                   <div class="carousel-item">
                      <img src="img/gear-2.jpg" class="d-block w-100 img-fluid" alt="Gear 4" />
                      <div class="carousel-caption">
-                        <h5>Peças originais</h5>
-                        <a href="#" class="btn btn-success">Conheça</a>
+                        <h5>Peças de leilões oficiais</h5>
+                        <a href="https://www.detran.mg.gov.br/parceiros-credenciados/lei-do-desmonte/consultar-empresas-credenciadas" target="_blank" class="btn btn-success">Detran-MG</a>
                      </div>
                   </div>
                   <div class="carousel-item">
                      <img src="img/gears-11.jpg" class="d-block w-100 img-fluid" alt="Gear 5" />
                      <div class="carousel-caption">
-                        <h5>Peças originais</h5>
-                        <a href="#" class="btn btn-success">Conheça</a>
+                        <h5>Tudo na sua mão</h5>
+                        <a href="contato.html" class="btn btn-success">Entre em contato</a>
                      </div>
                   </div>
                </div>
@@ -148,7 +148,7 @@
                      <div class="card-body">
                         <h5 class="card-title terc-color">Eficiência</h5>
                         <p class="card-text prim-color">
-                           Entregamos as peças prontas para o uso.Embaladas de forma correta e lindas.
+                           Entregamos as peças <strong>prontas para o uso</strong>.Embaladas de forma correta.
                         </p>
                         <a href="sobre.html" class="btn btn-success">Seja rápido</a>
                      </div>
@@ -174,7 +174,7 @@
                      <div class="card-body">
                         <h5 class="card-title terc-color">Originalidade</h5>
                         <p class="card-text prim-color">
-                           Vendemos apesar peças originais, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                           Vendemos apenas peças originais, certificadas pelo orgão responsável.
                         </p>
                         <a href="sobre.html" class="btn btn-success">Saiba como</a>
                      </div>
@@ -184,11 +184,11 @@
                <div class="col-12 col-md-6">
                   <div class="card text-center">
                      <!--<img src="img/detran.png" alt="Logo detran">-->
-                     <img src="img/detran.svg" alt="">
+                     <img src="img/detran.png" alt="Logo-Detran">
                      <div class="card-body">
                         <h5 class="card-title terc-color">Segurança</h5>
                         <p class="card-text prim-color">
-                           Trabalhamos com carros de leilões do detran, portanto de fonte segura e extremamente confiável
+                           Trabalhamos com carros de leilões do detran, portanto de fonte <strong>segura e extremamente confiável</strong>
                         </p>
                         <a href="https://www.detran.mg.gov.br/parceiros-credenciados/lei-do-desmonte/consultar-empresas-credenciadas" target="_blank" class="btn btn-success"><img src="img/detran-2.png" alt="detran logo"></a>
                      </div>

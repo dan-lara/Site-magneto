@@ -44,17 +44,23 @@
 .btn {
   border-radius: 0.5em;
   background: #199609;
-  box-shadow: 1px 2px #25222277;
+  /*box-shadow: 1px 2px #25222277;*/
+  box-shadow: 6px 6px 10px -6px rgba(0, 0, 0, 0.35);
 }
 
 .form-input {
   background: none;
   border-radius: 0.5em;
-  box-shadow: 1px 2px #25222277;
+  /*box-shadow: 1px 2px #25222277;*/
+  box-shadow: 6px 6px 10px -6px rgba(0, 0, 0, 0.35);
   outline: none;
   display: block;
   color: #199609;
   border: 1px solid #199609;
+}
+
+.card-body {
+  box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
 
 /*Animations*/
@@ -182,7 +188,17 @@
 
 /* NAVBAR */
 #navbar {
-  border-bottom: 1px solid #252222;
+  background-color: #252222;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid #000;
+}
+
+#navbar {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #navbar a {
@@ -208,7 +224,7 @@
 
 .navbar-brand span {
   margin-top: 0.6em;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -216,20 +232,23 @@
   text-shadow: #252222 1px 1px;
 }
 
-#navbar-items .navbar-nav {
+#navbar-links .navbar-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
 }
 
-#navbar-items .nav-item {
-  margin: 1em;
+#navbar-links .nav-item {
   font-size: 1.05em;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
 }
 
 /* SLIDE */
 #slides {
-  margin-top: 8em;
+  margin-top: 6.3em;
 }
 
 #slides .carousel-caption {
@@ -302,7 +321,6 @@
   margin-bottom: 3em;
   border-radius: 0.5em;
   /*box-shadow: 1px 2px #25222277;*/
-  box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
 
 #about-home .card:hover > i {
@@ -352,13 +370,12 @@
 #produtos-home img {
   width: auto;
   padding: 1em;
-  border-radius: 0.5em;
+  border-radius: 1.5em;
 }
 
 #produtos-home .card {
   margin-bottom: 3em;
   border-radius: 0.5em;
-  box-shadow: 4px 5px #25222277;
   margin: 1em;
 }
 
@@ -414,7 +431,7 @@
   width: 100%;
   margin-bottom: 2em;
   border-radius: 1em;
-  box-shadow: 3px 3px #25222277;
+  box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
 
 #contato-home strong,
@@ -431,9 +448,6 @@
   #contato-home img {
     width: 100%;
     margin-top: 6em;
-    margin-bottom: 2em;
-    border-radius: 1em;
-    box-shadow: 3px 3px #25222277;
   }
 }
 

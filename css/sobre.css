@@ -7,9 +7,9 @@
   color: #ec1f24;
 }
 
-
 /* NAVBAR */
-header, .navbar {
+header,
+.navbar {
   background-color: #252222;
   padding-left: 40px;
   padding-right: 40px;
@@ -37,12 +37,14 @@ header, .navbar {
   margin-left: 0.1em;
 }
 
-.navbar-brand img, .navbar-brand span {
+.navbar-brand img,
+.navbar-brand span {
   padding: 0;
   color: #ec1f24;
 }
 
-.navbar-brand img:hover, .navbar-brand span:hover {
+.navbar-brand img:hover,
+.navbar-brand span:hover {
   color: #199609;
 }
 
@@ -62,9 +64,8 @@ header, .navbar {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 1rem .8rem;
+  padding: 1rem 0.8rem;
 }
-
 
 /* Valores */
 #valores-about {
@@ -122,7 +123,6 @@ header, .navbar {
   padding-left: 15vh;
 }
 
-
 /* HISTORIA */
 #historia-about {
   padding-bottom: 40px;
@@ -152,7 +152,6 @@ header, .navbar {
   text-align: center;
 }
 
-
 /* MISSAO */
 #missao-about {
   height: 420px;
@@ -167,7 +166,7 @@ header, .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   position: absolute;
 }
 
@@ -175,7 +174,7 @@ header, .navbar {
   display: flex;
   justify-content: center;
   transform-style: preserve-3d;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #front {
@@ -206,7 +205,6 @@ header, .navbar {
 #frase-2 {
   color: #ec1f24;
 }
-
 
 /* FOOTER */
 #footer {
