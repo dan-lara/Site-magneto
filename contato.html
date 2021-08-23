@@ -24,7 +24,7 @@
 
 <body>
 
-   <!-- Barra de navegação -->
+   <!-- Barra de navegação 
    <header>
       <div class="container" id="nav-container">
          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -55,10 +55,39 @@
             </div>
          </nav>
       </div>
+   </header>-->
+   <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-terc-color navbar-dark" id="navbar">
+         <div class="container-fluid py-1">
+            <a class="navbar-brand" href="index.html">
+               <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" class="d-inline-block align-top" />
+               <span>Magneto</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-links">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sobre.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="contato.html" id="nav" role="button">Contato</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
    </header>
 
    <main>
-      
+
       <!-- FALE CONOSCO -->
       <section class="bg-prim-color" id="contact-area">
          <div class="container">
@@ -81,9 +110,9 @@
                      <div class="mb-3">
                         <label for="formFile" class="form-label file-label">Caso não tenha achado o produto desejado, nos mande uma foto</label>
                         <input class="form-control" type="file" id="formFile">
-                      </div>
+                     </div>
                      <input type="submit" class="btn btn-success">
-                   </form>
+                  </form>
                </div>
 
                <!-- CONTATOS -->
@@ -123,8 +152,7 @@
                   </div>
                   <div class="card-body card-body-cascade text-center">
                      <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
-                        <iframe src="https://maps.google.com/maps?q=Itajuba&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                        style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://maps.google.com/maps?q=Itajuba&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
                      </div>
                   </div>
                </div>

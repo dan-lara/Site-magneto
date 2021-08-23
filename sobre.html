@@ -26,7 +26,7 @@
 
 <body>
 
-   <!-- Barra de navegação -->
+   <!-- Barra de navegação 
    <header>
       <div class="container" id="nav-container">
          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -55,6 +55,41 @@
             </div>
          </nav>
       </div>
+   </header>-->
+   <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-terc-color navbar-dark" id="navbar">
+         <div class="container-fluid py-1">
+            <a class="navbar-brand" href="index.html">
+               <img src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto ícone" class="d-inline-block align-top" />
+               <span>Magneto</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-links">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle active" aria-current="page" href="sobre.html" id="nav" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sobre</a>
+                     <ul class="dropdown-menu bg-terc-color" aria-labelledby="nav">
+                        <li><a class="dropdown-item" href="#valores-about">Valores</a></li>
+                        <li><a class="dropdown-item" href="#historia-about">Nossa História</a></li>
+                        <li><a class="dropdown-item" href="#missao-about">Missão</a></li>
+                        <li><a class="dropdown-item" href="#sobreNos-about">Sobre nós</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
    </header>
 
    <main>
