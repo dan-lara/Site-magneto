@@ -143,8 +143,16 @@ header,
   margin-bottom: 20px;
 }
 
-.carousel-left {
+.carousel-sobre {
   padding-left: 15vh;
+}
+
+.carousel-control-prev {
+  padding-top: 0.5em;
+}
+
+.carousel-control-next {
+  padding-top: 0.5em;
 }
 
 .carousel-indicators {
