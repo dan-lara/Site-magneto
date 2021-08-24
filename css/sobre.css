@@ -210,6 +210,10 @@ header,
   justify-content: center;
 }
 
+#missao-about .title::after {
+  margin-bottom: 20px;
+}
+
 .face {
   width: 500px;
   height: 220px;
@@ -241,12 +245,17 @@ header,
   transform: rotateY(180deg);
 }
 
+#aviso-click {
+  padding-left: 41em;
+  font-size: 0.8em;
+}
+
 #text-animation p {
   font-size: 1.4em;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  padding: 60px 20px 0 20px;
+  padding: 80px 20px 0 20px;
 }
 
 #frase-1 {
