@@ -1,7 +1,31 @@
-/*Estatísticas*/
-#progress-produtos {
-  margin-top: 6.3em;
+/* INTRODUCAO */
+.introducao-produtos {
+  background: url(../img/introducao-3.jpg);
+  background-size: cover;
 }
+
+.introducao-produtos h1 {
+  margin-top: 0.8em;
+}
+
+.introducao-produtos .title {
+  color: #FFF;
+  margin-bottom: 50px;
+  text-shadow: none;
+  font-size: 3em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+.introducao-produtos .title::after {
+  background-color: #FFF;
+  box-shadow: 2px 2px #000;
+}
+
+/*Estatísticas*/
+/* #progress-produtos {
+  margin-top: 6.3em;
+} */
 
 #bars {
   box-shadow: 4px 5px #25222277;
