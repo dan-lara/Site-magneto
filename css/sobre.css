@@ -112,7 +112,7 @@ header,
 .valores-title {
   text-align: center;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 1em;
 }
 
 #valores-list {
@@ -138,9 +138,15 @@ header,
   border-right: 3px solid #212529;
 }
 
+.valores-divisao-bottom {
+  margin-bottom: 1.5em;
+  border-bottom: 3px solid #212529;
+}
+
 .valores-coluna {
   width: 33%;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .carousel-sobre {
