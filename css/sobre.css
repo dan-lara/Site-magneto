@@ -320,3 +320,76 @@ header,
   }
 
 }
+
+@media(max-width: 426px) {
+
+  /* Valores */
+  .valores-frases {
+    border: none;
+  }
+
+  .carousel-sobre {
+    padding: 0;
+  }
+
+  /* História */
+  .historia-imagem-1 {
+    padding: 0 0 5px 0;
+    margin-left: 50px;
+    width: 75%;
+  }
+
+  .historia-imagem-2 {
+    padding: 0 0 5px 0;
+    margin-left: 50px;
+    width: 75%;
+  }
+
+  .historia-imagem-3 {
+    padding: 0 0 5px 0;
+    margin-left: 50px;
+    width: 75%;
+  }
+
+  #historia-about .col-md-1 {
+    display: none;
+  }
+
+  /* Missão */
+  #missao-about {
+    height: 500px;
+  }
+
+  #aviso-click {
+    padding-left: 31em;
+    font-size: 10px;
+  }
+
+  #front {
+    width: 85%;
+  }
+
+  #back {
+    width: 85%;
+  }
+
+  #frase-1, #frase-2 {
+    font-size: 11px;
+    padding-top: 15em;
+  }
+
+  /* Sobre Nós */
+  #sobreNos-about p {
+    font-size: 16px;
+  }
+
+  #detran-about .btn, #detran-about .btn-sucess {
+    width: 150px;
+  }
+
+  #detran-about img {
+    width: 100%;
+    height: 100%;
+  }
+
+}
