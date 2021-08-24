@@ -333,19 +333,7 @@ header,
   }
 
   /* História */
-  .historia-imagem-1 {
-    padding: 0 0 5px 0;
-    margin-left: 50px;
-    width: 75%;
-  }
-
-  .historia-imagem-2 {
-    padding: 0 0 5px 0;
-    margin-left: 50px;
-    width: 75%;
-  }
-
-  .historia-imagem-3 {
+  .historia-imagem-1, .historia-imagem-2, .historia-imagem-3 {
     padding: 0 0 5px 0;
     margin-left: 50px;
     width: 75%;
@@ -390,6 +378,38 @@ header,
   #detran-about img {
     width: 100%;
     height: 100%;
+  }
+
+}
+
+@media(max-width: 376px) {
+
+  /* Valores */
+  #valores-about p {
+    font-size: 9px;
+  }
+
+  /* Historia */
+  .historia-imagem-1, .historia-imagem-2, .historia-imagem-3 {
+    margin-left: 40px;
+  }
+
+  /* Missão */
+  #missao-about {
+    height: 520px;
+  }
+
+  #aviso-click {
+    padding-left: 26em;
+  }
+
+}
+
+@media(max-width: 321px) {
+
+  /* Missão */
+  #aviso-click {
+    padding-left: 21em;
   }
 
 }
