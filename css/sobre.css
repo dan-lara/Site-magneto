@@ -3,70 +3,6 @@
   margin: 0;
 }
 
-.quar-color {
-  color: #ec1f24;
-}
-
-/* NAVBAR */
-header,
-.navbar {
-  background-color: #252222;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-#nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.navbar-brand {
-  display: flex;
-}
-
-.navbar-brand img {
-  width: 80px;
-}
-
-.navbar-brand span {
-  margin-top: 0.6em;
-  font-weight: 700;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-left: 0.1em;
-}
-
-.navbar-brand img,
-.navbar-brand span {
-  padding: 0;
-  color: #ec1f24;
-}
-
-.navbar-brand img:hover,
-.navbar-brand span:hover {
-  color: #199609;
-}
-
-#navbar-links .nav-link {
-  color: #ec1f24;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-#navbar-links .nav-link:hover {
-  color: #199609;
-}
-
-#navbar-links .active {
-  color: #199609;
-  border-bottom: 2px solid #199609;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 1rem 0.8rem;
-}
-
 /* Introducao */
 .introducao-sobre {
   background: url(../img/introducao-1.jpg);
@@ -153,37 +89,20 @@ header,
   padding-left: 15vh;
 }
 
-.carousel-control-prev {
+.carousel-control-prev, .carousel-control-next {
   padding-top: 0.5em;
 }
 
-.carousel-control-next {
-  padding-top: 0.5em;
-}
-
-.carousel-indicators {
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-.carousel-indicators button {
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-/* HISTORIA */
+/* História */
 #historia-about {
   padding-bottom: 40px;
 }
+
 #historia-about p {
   font-size: 1.1em;
 }
 
-.historia-imagem-1 {
-  padding-top: 100px;
-}
-
-.historia-imagem-3 {
+.historia-imagem-1, .historia-imagem-3 {
   padding-top: 100px;
 }
 
@@ -203,7 +122,7 @@ header,
   text-align: center;
 }
 
-/* MISSAO */
+/* Missão */
 #missao-about {
   height: 420px;
   display: flex;
@@ -246,7 +165,7 @@ header,
 }
 
 #aviso-click {
-  padding-left: 41em;
+  padding-left: 40em;
   font-size: 0.8em;
 }
 
@@ -266,7 +185,7 @@ header,
   color: #ec1f24;
 }
 
-/* SOBRE NOS */
+/* Sobre Nós */
 #sobreNos-about {
   padding-bottom: 40px;
 }
@@ -286,11 +205,6 @@ header,
 #detran-about img {
   height: 117px;
   width: 320px;
-}
-
-/* FOOTER */
-#footer {
-  margin: 0;
 }
 
 /* Responsivo Tablet */
@@ -321,6 +235,7 @@ header,
 
 }
 
+/* Responsivo Mobile Large */
 @media(max-width: 426px) {
 
   /* Valores */
@@ -382,6 +297,7 @@ header,
 
 }
 
+/* Responsivo Mobile Medium */
 @media(max-width: 376px) {
 
   /* Valores */
@@ -405,6 +321,7 @@ header,
 
 }
 
+/* Responsivo Mobile Small */
 @media(max-width: 321px) {
 
   /* Missão */

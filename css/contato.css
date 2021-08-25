@@ -1,62 +1,4 @@
-/* NAVBAR 
-header, .navbar {
-  background-color: #252222;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-#nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.navbar-brand {
-  display: flex;
-}
-
-.navbar-brand img {
-  width: 80px;
-}
-
-.navbar-brand span {
-  margin-top: 0.6em;
-  font-weight: 700;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-left: 0.1em;
-}
-
-.navbar-brand img, .navbar-brand span {
-  padding: 0;
-  color: #ec1f24;
-}
-
-.navbar-brand img:hover, .navbar-brand span:hover {
-  color: #199609;
-}
-
-#navbar-links .nav-link {
-  color: #ec1f24;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-#navbar-links .nav-link:hover {
-  color: #199609;
-}
-
-#navbar-links .active {
-  color: #199609;
-  border-bottom: 2px solid #199609;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 1rem .8rem;
-}
-*/
-
-/* INTRODUCAO */
+/* Introcução */
 .introducao-contato {
   background: url(../img/introducao-2.jpg);
   background-size: cover;
@@ -80,7 +22,7 @@ header, .navbar {
   box-shadow: 2px 2px #000;
 }
 
-/* FALE CONOSCO */
+/* Fale Conosco */
 #contact-area {
   margin-top: -40px;
   padding-bottom: 2em;
@@ -90,7 +32,7 @@ header, .navbar {
   padding-top: 40px;
 }
 
-/* FORM AREA */
+/* Form Area */
 #form-area {
   text-align: left;
   font-weight: bold;
@@ -116,7 +58,7 @@ header, .navbar {
   padding-bottom: 10px;
 }
 
-/* INFORMACAO AREA */
+/* Informação Area */
 #informacao-area {
   text-align: right;
   padding-top: 3.4em;
@@ -150,7 +92,7 @@ header, .navbar {
   font-size: 26px;
 }
 
-/* MAP AREA */
+/* Map Area */
 #map-area {
   padding-bottom: 20px;
 }
@@ -173,9 +115,4 @@ header, .navbar {
   height: 100%;
   width: 100%;
   position: absolute;
-}
-
-/* FOOTER */
-#footer {
-  margin: 0;
 }

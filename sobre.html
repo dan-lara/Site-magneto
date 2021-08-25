@@ -19,6 +19,7 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
    <!-- Fade -->
    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
    <!--CSS proprietário-->
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/sobre.css">
@@ -26,36 +27,7 @@
 
 <body>
 
-   <!-- Barra de navegação 
-   <header>
-      <div class="container" id="nav-container">
-         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <a href="index.html" class="navbar-brand">
-               <img id="logo" src="img/logo-red.png" onmouseover="this.src='img/logo-green.png'" onmouseout="this.src='img/logo-red.png'" alt="Magneto" class="d-inline-block align-top" />
-               <span>Magneto</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-links">
-               <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                     <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="produtos.html">Produtos</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="contato.html">Contato</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </div>
-   </header>-->
+   <!-- Navbar -->
    <header>
       <nav class="navbar navbar-expand-lg fixed-top bg-terc-color navbar-dark" id="navbar">
          <div class="container-fluid py-1">
@@ -91,6 +63,7 @@
          </div>
       </nav>
    </header>
+   <!-- Fim Navbar -->
 
    <main>
 
@@ -133,17 +106,12 @@
                      </div>
                   </div>
                </div>
+               <!-- Fim Frases -->
+               <!-- Slider -->
                <div class="col-md-6 carousel-sobre">
-                  <!-- Slider -->
                   <div id="valoresSlider" class="carousel slide carousel-dark" data-bs-ride="carousel">
-                     <!-- <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#valoresSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                     </div> -->
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <!-- <img src="img/gears-1.jpg" class="d-block w-100" alt=""> -->
                            <div class="card text-center my-2">
                               <i class="bi bi-droplet-half terc-color"></i>
                               <div class="card-body">
@@ -166,7 +134,6 @@
                            </div>
                         </div>
                         <div class="carousel-item">
-                           <!-- <img src="img/gears-3.jpg" class="d-block w-100" alt=""> -->
                            <div class="card text-center my-2">
                               <i class="bi bi-card-checklist terc-color"></i>
                               <div class="card-body">
@@ -199,12 +166,13 @@
                      </button>
                   </div>
                </div>
+               <!-- Fim Slider -->
             </div>
          </div>
       </section>
+      <!-- Fim Valores -->
 
-
-      <!-- Historia -->
+      <!-- História -->
       <section class="bg-sec-color" id="historia-about">
          <div class="container">
             <div class="row">
@@ -244,9 +212,9 @@
             </div>
          </div>
       </section>
+      <!-- Fim História -->
 
-
-      <!-- MISSAO -->
+      <!-- Missão -->
       <section class="bg-prim-color" id="missao-about">
          <div class="container">
             <div class="col-12">
@@ -257,6 +225,7 @@
                   <div class="col-md-12" id="aviso-click">
                      <i class="bi bi-arrow-down"></i><span>click</span>
                   </div>
+                  <!-- Flip -->
                   <div class="flip" id="card-flip">
                      <div class="face" id="front">
                         <div class="card text-center">
@@ -281,7 +250,9 @@
                         </div>
                      </div>
                   </div>
+                  <!-- Fim Flip -->
                </div>
+               <!-- Animação Texto -->
                <div class="col-md-6" id="text-animation">
                   <div id="frase-1">
                      <p>Trabalhar com sustentabilidade é plantar um presente que garanta a subsistência das
@@ -294,12 +265,13 @@
                      </p>
                   </div>
                </div>
+               <!-- Fim Animação Texto -->
             </div>
          </div>
       </section>
+      <!-- Fim Missão -->
 
-
-      <!-- SOBRE NOS -->
+      <!-- Sobre Nós -->
       <section class="bg-sec-color" id="sobreNos-about">
          <div class="container">
             <div class="col-12">
@@ -320,6 +292,7 @@
             </div>
          </div>
       </section>
+      <!-- Fim Sobre Nós -->
 
    </main>
 
