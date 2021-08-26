@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+.carousel-inner {
+  height: 100%;
+}
+
 /* Introducao */
 .introducao-sobre {
   background: url(../img/introducao-1.jpg);
@@ -208,7 +212,7 @@
 }
 
 /* Responsivo Tablet */
-@media(max-width: 768px) {
+@media(max-width: 991px) {
 
   /* Valores */
   #valores-about p {
@@ -236,7 +240,7 @@
 }
 
 /* Responsivo Mobile Large */
-@media(max-width: 426px) {
+@media(max-width: 767px) {
 
   /* Valores */
   .valores-frases {
@@ -298,7 +302,7 @@
 }
 
 /* Responsivo Mobile Medium */
-@media(max-width: 376px) {
+@media(max-width: 424px) {
 
   /* Valores */
   #valores-about p {

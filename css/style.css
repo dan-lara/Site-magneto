@@ -264,7 +264,7 @@
 }
 
 #slides .carousel-caption {
-  bottom: 3em;
+  bottom: 15em;
 }
 
 #slides .carousel-caption h5 {
@@ -277,6 +277,17 @@
   font-size: 1em;
   margin-top: 1em;
 }
+
+.carousel-inner {
+  height: 85vh;
+}
+
+.carousel-ajuste {
+  object-fit: cover;
+  height: 100%;
+}
+
+
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -552,4 +563,20 @@
   #links-container {
     padding-left: 2em;
   }
+}
+
+@media (max-width: 424px) {
+
+  #text-navbar {
+    display: none;
+  }
+
+}
+
+@media (max-width: 405px) {
+
+  #text-footer {
+    display: none;
+  }
+
 }
