@@ -15,7 +15,6 @@ card.addEventListener("click", (e) => {
     verificar = 1;
     $("#frase-1").fadeOut(630);
     $("#frase-2").delay(500);
-    // $("#frase-2").animate({width:'toggle'},2000);
     $("#frase-2").slideDown("slow");
   }
 
@@ -23,7 +22,6 @@ card.addEventListener("click", (e) => {
     verificar = 0;
     $("#frase-2").fadeOut(630);
     $("#frase-1").delay(500);
-    // $("#frase-1").animate({width:'toggle'},2000);
     $("#frase-1").slideDown("slow");
   }
 
