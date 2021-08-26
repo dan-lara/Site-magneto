@@ -66,6 +66,14 @@
   box-shadow: 12px 12px 20px -12px rgba(0, 0, 0, 0.35);
 }
 
+.whatsapp-animation:hover > i {
+  transition: 0.5s;
+}
+
+.whatsapp-animation:hover > #whatsapp-icon-animation {
+  transform: rotate(0.05turn);
+}
+
 /*Animations*/
 @keyframes vibrate-1 {
   0% {
