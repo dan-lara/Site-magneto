@@ -81,8 +81,8 @@
                   <div class="carousel-item carousel-ajuste active">
                      <img src="img/carro-antigo.jpg" class="d-block w-100 img-fluid carousel-ajuste" alt="Carro antigo" />
                      <div class="carousel-caption">
-                        <h5>Carros antigos</h5>
-                        <a href="#produtos-home" class="btn btn-success">Veja</a>
+                        <h5 class="fadeInDown" data-anime="400">Carros antigos</h5>
+                        <a href="#produtos-home" class="btn btn-success fadeInDown" data-anime="800">Veja</a>
                      </div>
                   </div>
                   <div class="carousel-item carousel-ajuste">
@@ -130,10 +130,10 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h3 class="title">Valores</h3>
+                  <h3 class="title" data-animeTime="top">Valores</h3>
                </div>
 
-               <div class="col-12 col-md-4">
+               <div class="col-12 col-md-4" data-animeTime="right">
                   <div class="card text-center">
                      <i class="bi bi-droplet-half terc-color"></i>
                      <div class="card-body">
@@ -146,7 +146,7 @@
                   </div>
                </div>
 
-               <div class="col-12 col-md-4">
+               <div class="col-12 col-md-4" data-animeTime="top">
                   <div class="card text-center">
                      <i class="bi bi-gear terc-color" id="gear"></i>
                      <div class="card-body">
@@ -159,7 +159,7 @@
                   </div>
                </div>
 
-               <div class="col-12 col-md-4">
+               <div class="col-12 col-md-4" data-animeTime="left">
                   <div class="card text-center">
                      <i class="bi bi-card-checklist terc-color"></i>
                      <div class="card-body">
@@ -172,7 +172,7 @@
                   </div>
                </div>
 
-               <div class="col-12 col-md-6">
+               <div class="col-12 col-md-6" data-animeTime="right">
                   <div class="card text-center">
                      <i class="bi bi-wrench terc-color" id="wrench"></i>
                      <div class="card-body">
@@ -185,7 +185,7 @@
                   </div>
                </div>
 
-               <div class="col-12 col-md-6">
+               <div class="col-12 col-md-6" data-animeTime="left">
                   <div class="card text-center">
                      <!--<img src="img/detran.png" alt="Logo detran">-->
                      <img src="img/detran.png" alt="Logo-Detran">
@@ -206,13 +206,13 @@
       <section class="container-fluid bg-prim-color" id="produtos-home">
          <div class="row">
             <div class="col-md-12">
-               <h3 class="title">Produtos</h3>
+               <h3 class="title" data-animeTime="top">Produtos</h3>
             </div>
-            <div class="card card-body text-center col-md-4">
+            <div class="card card-body text-center col-md-4" data-animeTime="top"> 
                <img src="img/carro-antigo.jpg" alt="gears-3">
                <h5>Latarias conservadas</h5>
             </div>
-            <div class="card card-body text-center col-md-4">
+            <div class="card card-body text-center col-md-4" data-animeTime="top">
                <img src="img/gears-6.jpg" alt="gears-3">
                <h5>Motores revisados</h5>
             </div>
@@ -227,11 +227,11 @@
       <section class="container-fluid bg-seg-color" id="news-home">
          <div class="row">
             <div class="col-md-12">
-               <h3 class="title">Newsletter</h3>
+               <h3 class="title" data-animeTime="top">Newsletter</h3>
             </div>
             <div class="container">
                <div class="col-12 col-md-12  justify-content-center">
-                  <h5 class="text-center">Assine nossa Newsletter<br> para receber todas as novidades!!</h5>
+                  <h5 class="text-center" data-animeTime="down">Assine nossa Newsletter<br> para receber todas as novidades!!</h5>
                </div>
             </div>
             <div class="col-md-12 d-flex justify-content-center">
@@ -265,17 +265,17 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h3 class="title">Contato</h3>
+                  <h3 class="title" data-animeTime="top">Contato</h3>
                </div>
-               <div class="col-12 col-md-5">
+               <div class="col-12 col-md-5" data-animeTime="right">
                   <img src="img/contato-index.jfif" alt="Imagem da empresa">
                </div>
                <div class="col-md-7 col-12 justify-content-center">
-                  <h5 class="text-center">Damos todo o suporte necessário.<br> Quer conhecer mais sobre onde e como trabalhamos?<br><br><strong>Faça uma visita</strong></h5>
+                  <h5 class="text-center" data-animeTime="left">Damos todo o suporte necessário.<br> Quer conhecer mais sobre onde e como trabalhamos?<br><br><strong>Faça uma visita</strong></h5>
                   <div class="col-12 col-md-12 d-flex justify-content-center">
                      <a href="contato.html" class="btn btn-success shake-horizontal"><i class="bi bi-cursor-fill"></i> Entre em contato</a>
                   </div>
-                  <h5 class="text-center" id="entre-botoes">ou</h5>
+                  <h5 class="text-center" id="entre-botoes" data-animeTime="left">ou</h5>
                   <div class="col-12 col-md-12 d-flex justify-content-center">
                      <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" class="btn btn-success shake-horizontal"><i class="bi bi-whatsapp"></i> Mande uma mensagem</a>
                   </div>
@@ -364,6 +364,9 @@
    <a href="https://wa.me/5535992041032?text=Preciso%20de%20ajuda!" class="whatsapp-animation" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#199609;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;" target="_blank">
       <i style="margin-top:16px" class="fa fa-whatsapp" id="whatsapp-icon-animation"></i>
    </a>
+
+   <script src="./js/simple-anime.js"></script>
+   <script src="./js/scripts.js"></script>
    
 </body>
 

@@ -206,6 +206,60 @@
   padding-top: 30px;
 }
 
+/* Animações Origamid */
+[data-anime] {
+  opacity: 0;
+}
+
+.fadeInDown {
+  transform: translate3d(0, -40px, 0);
+}
+
+.fadeInUp {
+  transform: translate3d(0, 40px, 0);
+}
+
+.fadeInRight {
+  transform: translate3d(40px, 0, 0);
+}
+
+.fadeInLeft {
+  transform: translate3d(-40px, 0, 0);
+}
+
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+/* Animações Scroll */
+[data-animeTime] {
+  opacity: 0;
+  transition: 800ms;
+}
+
+[data-animeTime="down"] {
+  transform: translate3d(0, 60px, 0);
+}
+
+[data-animeTime="top"] {
+  transform: translate3d(0, -60px, 0);
+}
+
+[data-animeTime="left"] {
+  transform: translate3d(60px, 0, 0);
+}
+
+[data-animeTime="right"] {
+  transform: translate3d(-60px, 0, 0);
+}
+
+[data-animeTime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 /* NAVBAR */
 #navbar {
   background-color: #252222;

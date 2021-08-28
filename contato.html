@@ -66,7 +66,7 @@
       <!-- Introdução Sobre  -->
       <section class="introducao-interna introducao-contato">
          <div class="container-fluid">
-            <h1 class="title">Contato</h1>
+            <h1 class="title fadeInDown" data-anime="400">Contato</h1>
          </div>
       </section>
 
@@ -74,11 +74,11 @@
       <section class="bg-prim-color" id="contact-area">
          <div class="container">
             <div class="col-md-12">
-               <h2 class="title">Fale Conosco</h2>
+               <h2 class="title fadeInDown" data-anime="800">Fale Conosco</h2>
             </div>
             <div class="row">
                <!-- Formulário -->
-               <div class="col-md-6 form-input form-group" id="form-area">
+               <div class="col-md-6 form-input form-group fadeInLeft" data-anime="1200" id="form-area">
                   <form action="https://formspree.io/f/xgerprkw" method="POST" enctype="multipart/form-data">
                      <label for="name">Nome</label>
                      <input type="text" class="form-control" required="" placeholder="Digite seu nome completo" name="name">
@@ -97,7 +97,7 @@
                </div>
                <!-- Fim Formulário -->
                <!-- Contatos -->
-               <div class="col-md-6" id="informacao-area">
+               <div class="col-md-6 fadeInRight" data-anime="1200" id="informacao-area">
                   <div class="contact-box">
                      <i class="bi bi-telephone-fill"></i>
                      <p><span class="contact-title">Ligue para:</span> (35)99970-7070</p>
@@ -129,7 +129,7 @@
             <div class="row">
                <div class="col-md-3"></div>
                <div class="col-md-6 mb-4">
-                  <div class="card card-cascade narrower">
+                  <div class="card card-cascade narrower" data-animeTime="down">
                      <div class="view view-cascade gradient-card-header peach-gradient">
                         <h3 class="mb-0">Nossa Localização</h3>
                      </div>
@@ -227,6 +227,8 @@
       <i style="margin-top:16px" class="fa fa-whatsapp" id="whatsapp-icon-animation"></i>
    </a>
 
-</body>
+   <script src="./js/simple-anime.js"></script>
+   <script src="./js/scripts.js"></script>
 
+</body>
 </html>

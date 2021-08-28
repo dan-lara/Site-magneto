@@ -76,7 +76,7 @@
       <!-- Introdução Sobre  -->
       <section class="introducao-interna introducao-sobre">
          <div class="container-fluid">
-            <h1 class="title">Sobre</h1>
+            <h1 class="title fadeInDown" data-anime="400">Sobre</h1>
          </div>
       </section>
 
@@ -84,11 +84,11 @@
       <section class="bg-prim-color" id="valores-about">
          <div class="container">
             <div>
-               <h2 class="title">Valores</h2>
+               <h2 class="title fadeInDown" data-anime="800">Valores</h2>
             </div>
             <div class="row">
                <!-- Frases -->
-               <div class="col-md-6 valores-frases">
+               <div class="col-md-6 valores-frases fadeInDown" data-anime="1200">
                   <h3 class="valores-title">Sustentabilidade e qualidade</h3>
                   <div class="row">
                      <div class="col-md-2 valores-coluna">
@@ -114,7 +114,7 @@
                </div>
                <!-- Fim Frases -->
                <!-- Slider -->
-               <div class="col-md-6 carousel-sobre">
+               <div class="col-md-6 carousel-sobre fadeInDown" data-anime="1200">
                   <div id="valoresSlider" class="carousel slide carousel-dark" data-bs-ride="carousel">
                      <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -183,9 +183,9 @@
          <div class="container">
             <div class="row">
                <div class="col-12">
-                  <h2 class="title">História</h2>
+                  <h2 class="title" data-animeTime="top">História</h2>
                </div>
-               <div class="col-md-3 historia-imagem-1">
+               <div class="col-md-3 historia-imagem-1" data-animeTime="left">
                   <div class="card">
                      <img src="img/oficina-1.jpg" alt="Oficina 1">
                      <div class="card-body">
@@ -196,7 +196,7 @@
                <div class="col-md-1">
                   <img src="img/linha-1.png" class="historia-linha-1" alt="Linha 1">
                </div>
-               <div class="col-md-4 historia-imagem-2">
+               <div class="col-md-4 historia-imagem-2" data-animeTime="down">
                   <div class="card">
                      <img src="img/oficina-2.jpg" alt="Oficina 2">
                      <div class="card-body">
@@ -207,7 +207,7 @@
                <div class="col-md-1">
                   <img src="img/linha-1.png" class="historia-linha-2" alt="Linha 2">
                </div>
-               <div class="col-md-3 historia-imagem-3">
+               <div class="col-md-3 historia-imagem-3" data-animeTime="right">
                   <div class="card">
                      <img src="img/oficina-3.jpg" alt="Oficina 3">
                      <div class="card-body">
@@ -224,11 +224,11 @@
       <section class="bg-prim-color" id="missao-about">
          <div class="container">
             <div class="col-12">
-               <h2 class="title">Missão</h2>
+               <h2 class="title" data-animeTime="top">Missão</h2>
             </div>
             <div class="row">
                <div class="col-md-6">
-                  <div class="col-md-12" id="aviso-click">
+                  <div class="col-md-12" id="aviso-click" data-animeTime="top">
                      <i class="bi bi-arrow-down"></i><span>click</span>
                   </div>
                   <!-- Flip -->
@@ -259,7 +259,7 @@
                   <!-- Fim Flip -->
                </div>
                <!-- Animação Texto -->
-               <div class="col-md-6" id="text-animation">
+               <div class="col-md-6" id="text-animation" data-animeTime="left">
                   <div id="frase-1">
                      <p>Trabalhar com sustentabilidade é plantar um presente que garanta a subsistência das
                         novas gerações num planeta que pede socorro e se aquece a cada dia.
@@ -281,9 +281,9 @@
       <section class="bg-sec-color" id="sobreNos-about">
          <div class="container">
             <div class="col-12">
-               <h2 class="title">Sobre Nós</h2>
+               <h2 class="title" data-animeTime="top">Sobre Nós</h2>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12" data-animeTime="down">
                <p>Dês de sua fundação, a Magneto é uma empresa que vem inovando e buscando novas alternativas para se diferenciar no mercado.
                   Passamos de uma oficina de garagem simples á uma grande loja de peças na internet, que sempre busca a sustentabilidade para
                   fazer do mundo um lugar melhor.
@@ -291,7 +291,7 @@
                <p>Temos o orgulho de dizer que fazemos tudo isso de acordo com as normas e regularmentos do Detran.</p>
                <p>Clique e de uma olhada:</p>
             </div>
-            <div class="col-md-12" id="detran-about">
+            <div class="col-md-12" id="detran-about" data-animeTime="top">
                <a href="https://www.detran.mg.gov.br/parceiros-credenciados/lei-do-desmonte/consultar-empresas-credenciadas" target="_blank" class="btn btn-success shake-horizontal">
                   <img src="img/detran-2.png" alt="detran logo">
                </a>
@@ -382,7 +382,9 @@
       <i style="margin-top:16px" class="fa fa-whatsapp" id="whatsapp-icon-animation"></i>
    </a>
 
-   <script src="js/scripts.js"></script>
+   <script src="./js/simple-anime.js"></script>
+   <script src="./js/scripts.js"></script>
+
 </body>
 
 </html>

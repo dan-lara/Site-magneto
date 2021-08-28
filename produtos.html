@@ -70,7 +70,7 @@
       <!-- Introdução Produtos  -->
       <section class="introducao-interna introducao-produtos">
          <div class="container-fluid">
-            <h1 class="title">Produtos</h1>
+            <h1 class="title fadeInDown" data-anime="400">Produtos</h1>
          </div>
       </section>
 
@@ -79,10 +79,10 @@
          <div class="container">
             <div class="row ">
                <div class="col-12 col-md-12">
-                  <h3 class="title">Estatísticas</h3>
+                  <h3 class="title fadeInDown" data-anime="800">Estatísticas</h3>
                </div>
 
-               <div class="col-12 col-md-6 mb-3 text-center">
+               <div class="col-12 col-md-6 mb-3 text-center fadeInLeft" data-anime="1200">
                   <div class="card">
                      <div class="card-body" id="bars">
                         <div class="progress-container progress-success">
@@ -113,7 +113,7 @@
                   </div>
                </div>
 
-               <div class="col-12 col-md-6 mb-3 text-center">
+               <div class="col-12 col-md-6 mb-3 text-center fadeInRight" data-anime="1200">
                   <div class="card">
                      <div class="card-body" id="bars">
                         <div class="progress-container progress-success">
@@ -144,7 +144,7 @@
                   </div>
                </div>
 
-               <div class=" col-12 col-md-12 d-flex justify-content-center">
+               <div class=" col-12 col-md-12 d-flex justify-content-center" data-anime="1600">
                   <a href="sobre.html" class="shake-horizontal btn btn-success">Conheça um pouco mais</a>
                </div>
             </div>
@@ -156,21 +156,21 @@
          <div class="container">
             <div class="row">
                <div class="col-12 col-md-12">
-                  <h3 class="title">Processo</h3>
+                  <h3 class="title" data-animeTime="top">Processo</h3>
                </div>
 
                <!--Videos ilustrativos-->
-               <div class="col-12 col-md-7 embed-responsive embed-responsive-16by9" id="video-produtos">
+               <div class="col-12 col-md-7 embed-responsive embed-responsive-16by9" id="video-produtos" data-animeTime="right">
                   <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Ln78wg7A-yQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cRC4iktG-kE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>
 
                <!--Processamento do produtos-->
                <div class="col-12 col-md-5">
-                  <h5 class="text-center">Seu pedido é tratado com carinho</h5>
-                  <h5 class="text-center">Ele percorre um grande caminho, em <br> <strong class="terc-color"> Apenas uma semana:</strong> <br><br></h5>
+                  <h5 class="text-center" data-animeTime="left">Seu pedido é tratado com carinho</h5>
+                  <h5 class="text-center" data-animeTime="left">Ele percorre um grande caminho, em <br> <strong class="terc-color"> Apenas uma semana:</strong> <br><br></h5>
                   <!--Lista-->
-                  <ul class="list-group justify-content-between" id="lista-processo">
+                  <ul class="list-group justify-content-between" id="lista-processo" data-animeTime="left">
                      <li class="list-group-item mb-3 align-items-center bg-seg-color">
                         <i class="bi bi-cart-plus-fill"></i>Recebemos seu pedido
                      </li>
@@ -211,9 +211,9 @@
                <!--Compra-->
                <div>
                   <div class="col-12 col-md-12">
-                     <h3 class="title">Compre o produto certo <i class="bi bi-check2-all"></i></h3>
+                     <h3 class="title" data-animeTime="top">Compre o produto certo <i class="bi bi-check2-all"></i></h3>
                   </div>
-                  <form action="" class="col-12 col-md-12" id="form-compra">
+                  <form action="" class="col-12 col-md-12" id="form-compra" data-animeTime="down">
                      <label for="marca" class="form-label">Marca</label>
                      <input class="form-control form-input" list="lista-marca" id="marca-carro" placeholder="Digite a marca...">
                      <datalist id="lista-marca">
@@ -285,8 +285,8 @@
                   </script>
                </div>
                <!--Rastreio-->
-               <h3 id="title-rastreio">Rastreie seu pedido</h3>
-               <form class="row g-3 bounce-top" id="form-rastreio">
+               <h3 id="title-rastreio" data-animeTime="top">Rastreie seu pedido</h3>
+               <form class="row g-3 bounce-top" id="form-rastreio" data-animeTime="down">
                   <div class="col-auto">
                      <label for="codigo-rastreio" class="visually-hidden">Número do pedido</label>
                      <input type="text" class="form-control form-input" id="codigo-rastreio" placeholder="Número do pedido" required>
@@ -392,6 +392,8 @@
       <i style="margin-top:16px" class="fa fa-whatsapp" id="whatsapp-icon-animation"></i>
    </a>
 
-</body>
+   <script src="./js/simple-anime.js"></script>
+   <script src="./js/scripts.js"></script>
 
+</body>
 </html>
