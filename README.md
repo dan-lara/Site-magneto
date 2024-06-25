@@ -73,4 +73,4 @@
 
 ---
 
-Desenvolvido por [Daniel F. Lara](https://github.com/Daniel-Ferreira-Lara/) e Pedro Guerra
+Desenvolvido por [Daniel F. Lara](https://github.com/dan-lara/) e Pedro Guerra
